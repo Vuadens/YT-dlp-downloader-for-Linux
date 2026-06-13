@@ -4,7 +4,7 @@ Un script de línea de comandos para descargar videos y audio de YouTube (y [muc
 
 La idea de este script es poder hacer llamadas a la API de YouTube para descargar tanto videos como solamente el audio de los mismos desde una linea de comandos, sin tener que depender de páginas de dudosa procedencia con toneladas de anuncios molestos.
 
----
+
 
 ## Features
 
@@ -14,7 +14,7 @@ La idea de este script es poder hacer llamadas a la API de YouTube para descarga
 - 🔍 **Auto-instalación** de `yt-dlp` si no está presente
 - ⚠️ **Detección de ffmpeg** con instrucciones claras si falta
 
----
+
 
 ## 📋 Requisitos
 
@@ -38,7 +38,7 @@ sudo dnf install ffmpeg
 sudo zypper install ffmpeg
 ```
 
----
+
 
 ## Uso
 
@@ -60,7 +60,7 @@ Se va a mostrar un menú interactivo:
 2) Descargar Solo Audio (MP3)
 3) Salir
 ```
----
+
 
 ## 📂 Rutas de guardado de las descargas por defecto
 
@@ -71,19 +71,19 @@ Se va a mostrar un menú interactivo:
 
 Las carpetas se crean automáticamente si no existen.
 
----
+
 
 ## 🌐 Sitios soportados
 
 Cualquier sitio que soporte `yt-dlp`: YouTube, SoundCloud, Twitter/X, Vimeo, TikTok, Twitch y [cientos más](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md).
 
----
+
 
 ## Buscás la versión para Windows?
 
 Este repo fue una adaptación del script que hice para Windows, si lo necesitas la versión original para Windows está **[acá.](https://github.com/Vuadens/Video-downloader-with-YT-DLP)**
 
----
+
 
 ## 📄 Licencia
 
